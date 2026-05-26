@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jiaji W · 个人学术主页 — CS.AI">
+    <title>Konata · 个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);
+            color: #1a2a3a;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 780px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 32px;
+            padding: 3rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            transition: transform 0.2s ease;
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 650;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.15rem;
+            background: linear-gradient(135deg, #1a2a3a 0%, #2c6e9e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .sub {
+            font-size: 1.05rem;
+            color: #2c6e9e;
+            margin-bottom: 0.8rem;
+            border-left: 3px solid #2c6e9e;
+            padding-left: 1rem;
+            font-weight: 450;
+        }
+        .contact {
+            margin: 1rem 0 1.6rem;
+            font-size: 0.92rem;
+            color: #4a627a;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem 1.2rem;
+        }
+        .contact a {
+            color: #2c6e9e;
+            text-decoration: none;
+            border-bottom: 1px dotted #bdd4e5;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        .contact a:hover {
+            border-bottom-color: #2c6e9e;
+            color: #1a5278;
+        }
+        section {
+            margin: 1.6rem 0;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 550;
+            margin-bottom: 0.5rem;
+            color: #0f3b5c;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 1.1em;
+            background: #2c6e9e;
+            border-radius: 2px;
+        }
+        p, li {
+            color: #2c3e4e;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        ul li {
+            margin: 0.35rem 0;
+        }
+        .edu {
+            margin: 0.4rem 0 0.6rem;
+        }
+        .edu strong {
+            color: #0f3b5c;
+            font-weight: 600;
+        }
+        .edu .note {
+            font-size: 0.88rem;
+            color: #6a829a;
+            margin-left: 0.3rem;
+        }
+        .tag {
+            display: inline-block;
+            background: #eaf1f8;
+            color: #1a5278;
+            font-size: 0.82rem;
+            padding: 0.2rem 0.7rem;
+            border-radius: 20px;
+            margin: 0.15rem 0.25rem;
+            white-space: nowrap;
+        }
+        hr {
+            margin: 1.5rem 0;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #d0dce8, transparent);
+        }
+        footer {
+            margin-top: 1.8rem;
+            font-size: 0.78rem;
+            color: #8ba0ae;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            body { padding: 1rem 0.6rem; }
+            .container { padding: 1.8rem; }
+            h1 { font-size: 1.8rem; }
+            .contact { flex-direction: column; gap: 0.3rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Konata</h1>
+    <div class="sub">即将入学 · 人工智能 硕士研究生 (2026 秋)</div>
+
+    <div class="contact">
+        <span>📧 <a href="mailto:1571454955@qq.com">1571454955@qq.com</a></span>
+        <span>🐙 <a href="https://github.com" target="_blank">GitHub</a></span>
+        <span>📍 中国</span>
+    </div>
+
+    <section>
+        <h2>关于我</h2>
+        <p>2026 年秋季进入硕士阶段学习，主攻人工智能方向。目前对<strong>多模态大模型</strong>与<strong>智能体</strong>技术抱有浓厚兴趣。</p>
+    </section>
+
+    <section>
+        <h2>教育背景</h2>
+        <p class="edu"><strong>中国科学院大学</strong><span class="note">· 硕士 (2026–2029)</span></p>
+    </section>
+
+    <section>
+        <h2>研究兴趣</h2>
+        <p>
+            <span class="tag">大语言模型</span>
+            <span class="tag">多模态分类</span>
+            <span class="tag">机器翻译</span>
+            <span class="tag">姿态估计</span>
+        </p>
+    </section>
+
+    <section>
+        <h2>竞赛与活动</h2>
+        <ul>
+            <li>中国智能机器人格斗大赛 · 国家二等奖</li>
+            <li>全国大学生电子设计竞赛 · 省级三等奖</li>
+        </ul>
+    </section>
+
+    <hr>
+    <footer>
+        本页面用于学术身份验证，信息真实。最后更新：2026 年 5 月
+    </footer>
+</div>
+</body>
+</html>
