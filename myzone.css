@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+@media screen {
+  body { font-family: 微软雅黑, Verdana, Arial, Helvetica, 宋体, sans-serif; overflow-y: scroll; }
+  .ie7 body { overflow-y: visible; }
+  html.ie7 { overflow-y: scroll; }
+  #header { }
+  #header .container { position: relative; zoom: 1; opacity: 1; padding-top: 20px; padding-bottom: 10px; }
+  #logo { display: block; width: 486px; height: 100px; background: transparent; }
+  #logo img { width: 486px; height: 100px; }
+  #logo span { display: none; }
+  .b-topbar { position: absolute; right: 0px; bottom: 20px; }
+  .b-topbar a { display: inline-block; margin-left: 20px; font-size: 12px; color: rgb(102, 102, 102); }
+  .b-topbar a:hover { color: rgb(255, 51, 0); }
+  #myzone3 #main-content .container { border: 1px solid rgb(204, 204, 204); }
+  #myzone1 .b-menu { margin-bottom: 60px; }
+  #myzone1 .b-menu ul { margin-left: 0px; margin-bottom: 0px; list-style-type: none; background-color: rgb(59, 110, 165); }
+  #myzone1 .b-menu ul li { float: left; }
+  #myzone1 .b-menu ul li a { display: block; padding-left: 10px; padding-right: 10px; height: 40px; line-height: 40px; text-align: center; color: rgb(255, 255, 255); }
+  #myzone1 .b-menu ul li a:hover { background-color: rgb(255, 102, 0); text-decoration: none; }
+  #myzone1 .b-menu ul li ul { display: none; }
+  #myzone1 .b-menu { margin-bottom: 60px; }
+  #myzone2 .b-menu ul { margin-left: 0px; margin-bottom: 0px; list-style-type: none; }
+  #myzone2 .b-menu ul li { display: inline; }
+  #myzone2 .b-menu ul li a { float: left; display: block; margin-left: 3px; margin-bottom: 3px; padding-left: 10px; padding-right: 10px; height: 40px; line-height: 40px; text-align: center; color: rgb(0, 102, 204); }
+  #myzone2 .b-menu ul li a:hover { color: rgb(255, 51, 0); text-decoration: none; }
+  #myzone2 .b-menu ul li ul { display: none; }
+  #myzone2 .b-menu { margin-bottom: 10px; }
+  #myzone3 .b-menu { float: right; margin: 20px; padding: 10px; width: 200px; border: 1px solid rgb(204, 204, 204); }
+  #myzone3 .b-menu ul { margin-bottom: 0px; list-style-type: none; }
+  #myzone3 .b-menu ul li { color: rgb(51, 51, 51); font-size: 12px; }
+  #myzone3 .b-menu ul li a { color: rgb(0, 102, 204); }
+  #myzone3 .b-menu ul li a:hover { color: rgb(255, 51, 0); text-decoration: none; }
+  #myzone3 .b-menu ul ul { list-style-type: none; }
+  #myzone3 .b-menu { margin-bottom: 10px; }
+  #myzone1 .b-pinfo { overflow: hidden; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid rgb(238, 238, 238); }
+  #myzone1 .b-pinfo .bp-photo { float: left; width: 150px; height: 190px; }
+  #myzone1 .b-pinfo .bp-nc { margin-top: 10px; margin-left: 200px; margin-bottom: 10px; font-weight: bold; }
+  #myzone1 .b-pinfo .bp-enty { margin-left: 200px; margin-bottom: 10px; font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone1 .b-pinfo .bp-inf { margin-left: 200px; font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone2 .b-pinfo { float: left; padding-bottom: 20px; width: 240px; border: 1px solid rgb(204, 204, 204); text-align: center; }
+  #myzone2 .bp-title { margin-bottom: 20px; padding: 5px 10px; background-color: rgb(238, 238, 238); border-bottom: 1px solid rgb(204, 204, 204); text-align: left; }
+  #myzone2 .b-pinfo .bp-photo { width: 150px; height: 190px; }
+  #myzone2 .b-pinfo .bp-nc { margin-top: 20px; margin-bottom: 10px; padding: 15px 10px 10px; border-top: 1px solid rgb(238, 238, 238); font-weight: bold; text-align: left; }
+  #myzone2 .b-pinfo .bp-nc span { display: block; }
+  #myzone2 .b-pinfo .bp-enty { margin-bottom: 20px; padding: 0px 10px; font-size: 12px; color: rgb(102, 102, 102); text-align: left; }
+  #myzone2 .b-pinfo .bp-inf { padding: 0px 10px; font-size: 12px; color: rgb(102, 102, 102); text-align: left; }
+  #myzone3 .b-pinfo { overflow: hidden; margin-bottom: 20px; padding: 20px; border-bottom: 1px solid rgb(238, 238, 238); }
+  #myzone3 .b-pinfo .bp-title { display: none; }
+  #myzone3 .b-pinfo .bp-photo { float: left; width: 200px; height: 230px; }
+  #myzone3 .b-pinfo .bp-nc { margin-top: 10px; margin-left: 180px; margin-bottom: 10px; font-weight: bold; }
+  #myzone3 .b-pinfo .bp-enty { margin-left: 220px; margin-bottom: 10px; font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone3 .b-pinfo .bp-inf { margin-left: 180px; font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone1 .m-itme { margin-bottom: 20px; padding-top: 20px; padding-bottom: 20px; }
+  #myzone1 .m-itme .mi-t { overflow: hidden; height: 30px; line-height: normal; font-size: 14px; font-weight: normal; }
+  #myzone1 .m-itme .mi-t span { display: block; float: left; padding: 5px 20px; background-color: rgb(59, 110, 165); color: rgb(255, 255, 255); }
+  #myzone1 .m-itme .mi-box { padding-top: 10px; }
+  #myzone1 .m-itme .mi-box .mib-c { font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone2 .m-itme { margin-left: 260px; margin-bottom: 20px; padding-bottom: 20px; border: 1px solid rgb(204, 204, 204); }
+  #myzone2 .m-itme .mi-t { margin-top: 0px; margin-bottom: 0px; padding: 5px 10px; height: 20px; background-color: rgb(238, 238, 238); border-bottom: 1px solid rgb(204, 204, 204); line-height: normal; font-size: 14px; font-weight: normal; }
+  #myzone2 .m-itme .mi-box { padding-top: 10px; padding-left: 10px; padding-right: 10px; }
+  #myzone2 .m-itme .mi-box .mib-c { font-size: 12px; color: rgb(102, 102, 102); }
+  #myzone3 .m-itme { margin-bottom: 20px; padding: 20px; }
+  #myzone3 .m-itme .mi-t { margin-top: 0px; color: rgb(0, 102, 204); line-height: normal; font-weight: normal; }
+  #myzone3 .m-itme .mi-t span { }
+  #myzone3 .m-itme .mi-box { padding-top: 10px; }
+  #myzone3 .m-itme .mi-box .mib-c { font-size: 12px; color: rgb(102, 102, 102); }
+  #footer .container { padding: 10px 0px; border-top: 1px solid rgb(204, 204, 204); font-size: 12px; text-align: center; color: rgb(102, 102, 102); }
+}

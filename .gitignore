@@ -1,0 +1,35 @@
+# =========================================================================
+# konata3b.github.io - .gitignore
+# =========================================================================
+
+# 排除本地临时原型设计预览文件夹 (Brainstorming mockups)
+.superpowers/
+
+# 排除保存的网页快照 (MHTML snapshots)
+*.mhtml
+
+# 操作系统临时文件 (OS temporary files)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 编辑器与 IDE 配置 (IDE & Editor settings)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# 临时日志与编译产物 (Logs and temporary files)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
