@@ -33,3 +33,7 @@ desktop.ini
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# 排除开发设计与计划文档目录 (Specs and plans)
+docs/
+
